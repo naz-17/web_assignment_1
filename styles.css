@@ -1,0 +1,217 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+
+header {
+    background-color: #ffffff;
+    overflow: visible;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(184, 180, 180); /* 0px for horizontal shift, 0px for vertical shift, 10px for blurring */
+    margin: auto;
+}
+
+.main{
+    
+ 
+    border-radius: 5px;
+    padding: 20px;
+    background-color:  #ffffff;
+    box-shadow: 0px 0px 10px rgb(184, 180, 180);
+    margin-top: 5px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile_photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #161616;
+}
+
+h1 {
+    
+    color: rgb(41, 39, 39);
+    margin-bottom: 10px;
+}
+
+h2 {
+    
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact p{  /*styling the paragraph tag of the contact class*/
+    
+    margin-bottom: 10px;
+}
+
+
+
+.navbar {
+    
+    position: sticky ;/* Ensures that the navigation bar stays at the top of the page while scrolling */
+    top: 10px;
+    color: white;
+    border-radius: 100px;
+    
+ 
+    width: 100%;
+ 
+
+}
+
+.navbar ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1C1C1C;
+    border-radius: 5px;
+   
+}
+
+.navbar ul li {
+    padding: 15px;
+    margin: auto;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+   
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 2px;
+}
+
+.about { 
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: auto;
+      
+}
+.about h2{
+    margin-bottom: 10px;
+}
+
+.about p {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+   
+}
+
+
+.skills-section, .experience-section, .education , .award, .contact_info, .form{
+    
+    
+    margin-top: 15px;
+    
+    text-align: left;
+    
+}
+
+
+
+.skills-list li, .experience-list li , .award li{
+    background-color: #eeeaea;
+    color: #333;
+    margin: 10px ;
+    margin-top: 15px;
+    padding: 10px;
+    list-style-type:circle;
+    width: 100%;
+    text-align: left; 
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+table, th, td{
+   border-collapse: collapse;
+    margin-top: 15px;
+    border: 1px solid #c4bebe;
+    text-align: left;
+    padding: 10px;
+}
+
+th{
+    background-color: #eeeaea;}
+
+input[type=text], [type=email], textarea{
+        width: 100%;
+        padding: 12px ;
+        margin: auto;
+        border: 1px solid #b6b5b5;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px ;
+        margin: auto;
+        margin-top: 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+     footer{
+        text-align: center;
+        background-color: #E6E6E6;
+       margin: auto;
+       margin-top: 8px;
+       padding: 7px;
+       border-radius: 5px;
+       
+       color: rgb(27, 26, 26);
+       
+     }
+      
+
+
+
+
+
+
+
+
+
+
+
